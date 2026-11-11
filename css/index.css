@@ -1,10 +1,12 @@
 body {
-    background-color: rgb(27, 1, 37);
+    background-color: rgb(4, 0, 36);
     color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url ("../assets/batman-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
+    cursor: url("../assets/morcego.cursor.png") 16 16, auto;
 }
 
 h1 {
@@ -22,6 +24,7 @@ h1 {
 
 .imagens-Batman:hover {
     transform : scale(1.1);
+    border-color: yellow;
 
 }
 .galeria {
